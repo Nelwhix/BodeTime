@@ -20,7 +20,7 @@ class BodeTime
 
     public function convertToMinutes(): string
     {
-        return $this->minutes + ($this->hours * 60) + ($this->seconds / 60) . " " . "minutes(s)";
+        return $this->minutes + ($this->hours * 60) + ($this->seconds / 60);
     }
 
     public function convertToHours(): float {
