@@ -1,0 +1,24 @@
+{
+    "name": "nelwhix/bode-time",
+    "description": "a simple date-time library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nelwhix\\BodeTime\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nelson Isioma",
+            "email": "nelsonisioma1@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
