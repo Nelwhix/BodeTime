@@ -4,14 +4,7 @@ namespace Nelwhix\BodeTime;
 
 class BodeTime
 {
-    protected int $hours;
-    protected int $seconds;
-    protected int $minutes;
-
-    public function __construct(Int $hours, Int $seconds, Int $minutes) {
-        $this->hours = $hours;
-        $this->seconds = $seconds;
-        $this->minutes = $minutes;
+    public function __construct(private Int $hours, private Int $seconds, private Int $minutes) {
     }
 
     public function convertToSeconds(): float {
